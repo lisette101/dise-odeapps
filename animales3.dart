@@ -92,6 +92,7 @@ class Fly {
     print('Estoy volando');
   }
 }
+
 /*fin MIXINS*/
 
 class Dolphin extends Mammal with Swim {
@@ -343,11 +344,11 @@ void main() {
 
 
   final Dove paloma = new Dove(nombre: 'Pam', sexo: 'Hembra');
-  Dove.volar();
-  Dove.caminar();
+  paloma.volar();
+  paloma.caminar();
 
 
-  final Flygin_fish pez_volador = new Shark(nombre: 'Jose', sexo: 'Macho');
+  final Flygin_fish pez_volador = new Flygin_fish(nombre: 'Jose', sexo: 'Macho');
   pez_volador.volar();
   pez_volador.nadar();
   pez_volador.come();
