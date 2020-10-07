@@ -347,7 +347,7 @@ void main() {
   Dove.caminar();
 
 
-  final Fish_flygin pez_volador = new Shark(nombre: 'Jose', sexo: 'Macho');
+  final Flygin_fish pez_volador = new Shark(nombre: 'Jose', sexo: 'Macho');
   pez_volador.volar();
   pez_volador.nadar();
   pez_volador.come();
